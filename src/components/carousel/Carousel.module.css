@@ -1,0 +1,30 @@
+.carousel {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.carouselContainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carouselContent {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carouselItem {
+  flex: 0 0 auto;
+  /* La largeur est définie dynamiquement dans le composant */
+}
+
+.button {
+  background-color: #ddd; /* Style de base pour les boutons, personnalisez selon vos besoins */
+  border: none;
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
